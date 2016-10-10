@@ -69,7 +69,7 @@ def check_input_row(row):
 
 def check_input_col(col):
     if col < 0 or col > 2:
-        print("ERROR: Row must be between 0 and 2")
+        print("ERROR: Column must be between 0 and 2")
         return False
     else:
         return True
